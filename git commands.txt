@@ -1,0 +1,113 @@
+https://git-scm.com/
+https://github.com/
+
+$GitBash:
+Pwd
+Cd
+$ git config --global user.name "George Pliner"
+$ git config --global user.email "george.pliner@gmail.com"
+$ git config --global --list
+
+$ git clone https://github.com/George2012/github-demo.git
+$ ls
+$ git status
+$ echo "Test" >> start.txt
+
+$ cat start.txt
+$ git add start.txt
+$ git commit -m "text description"
+
+$ git push origin master.
+
+https://notepad-plus-plus.org/
+Add C:\Program Files (x86)\Notepad++ to path env variable
+
+From user profile home directory
+Notepad++ .bash_profile
+https://coderwall.com/p/_-ypzq/git-bash-fixing-it-with-alias-and-functions
+alias npp='notepad++.exe -multiInst -nosession'
+
+Restart gitbash
+
+~/.gitconfig
+Git config --global
+Git config --global --list
+Git config --global -e (edit configuration file using default editor)
+
+Command Listing
+notepad++ # testing to make sure it works
+notepad++ .bashrc # see contents of .bashrc file below
+npp # testing npp alias
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+npp .gitconfig # open Git config file, should contain snip below
+~/.bashrc File
+alias npp='notepad++.exe -multiInst -nosession'
+~/.gitconfig File (snip)
+[core]
+editor = notepad++.exe -multiInst -nosession
+Mac OS X: TextMate 2
+On the Mac, TextMate 2 is a freely available text editor that works a bit better than TextEdit.
+Command Listing
+git config --global --list # before
+git config --global core.editor "mate -w"
+git config --global --list # after
+mate .gitconfig # compare with snip below
+~/.gitconfig File (snip)
+[core]
+editor = mate -w  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$git init new-project
+$git status
+$git add filename
+$git commit
+
+$git init existing-folder
+$git add . (add all files)
+$git commit -m “text message”
+
+In github:
+Fork to you space
+$git clone https://github.com/<usernsame>/<project>
+$git add <filename>
+$git pull origin master
+$git push origin master
+notepad++ ~/.gitconfig
+$git commit -am “adding text”
+$git ls-files
+
+$git add <filename>
+$git add .    #add all files
+$git reset HEAD <filename>  # unstage file
+$git checkout -- <filename>  revert the file
