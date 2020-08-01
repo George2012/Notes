@@ -123,5 +123,7 @@ $git add .gitignore
 $git commit -m ""
 
 //cleanup
-
+$git pull origin master
+$git commit -m ""
+$git pushh origin master
 
