@@ -23,7 +23,7 @@ https://notepad-plus-plus.org/
 Add C:\Program Files (x86)\Notepad++ to path env variable
 
 From user profile home directory
-Notepad++ .bash_profile
+Notepad++ .bash_profile //configure BASH alias
 https://coderwall.com/p/_-ypzq/git-bash-fixing-it-with-alias-and-functions
 alias npp='notepad++.exe -multiInst -nosession'
 
@@ -57,37 +57,6 @@ mate .gitconfig # compare with snip below
 editor = mate -w  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $git init new-project
 $git status
 $git add filename
@@ -107,7 +76,52 @@ notepad++ ~/.gitconfig
 $git commit -am “adding text”
 $git ls-files
 
+//add file
 $git add <filename>
 $git add .    #add all files
 $git reset HEAD <filename>  # unstage file
 $git checkout -- <filename>  revert the file
+
+//rename file 
+$git mv <current_file_name> <new_file_name>   //rename from git	
+
+mv <current_file_name> <new_file_name>		  //rename from bash
+$git add -A
+$git add -u
+
+//deleteing files
+$git ls-files
+$git rm filename
+$git commit -m "text"
+$git reset HEAD filename //undo deleteion in git
+$git checkout -- filename //reverts file
+$git add -A // add all deletion to git
+
+//history
+$git help log
+q
+$git log
+q
+$git log --oneline --graph --decorate
+$git log --since="3 days ago"
+$git log -- filename //history on specific file
+$git log --follow -- filename //follow renames on file
+$git show <commitId>
+
+//alias
+$git config --global alias.<new command name> "[without git]new command" //configure git commands
+Notepad++ .bash_profile 												 //configure BASH alias
+npp ~/.gitconfig
+
+//ignoring files
+npp .gitignore
+<filename>
+*.<ext>
+<folder>/
+
+$git add .gitignore
+$git commit -m ""
+
+//cleanup
+
+
