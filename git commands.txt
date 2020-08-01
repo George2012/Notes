@@ -124,6 +124,6 @@ $git commit -m ""
 
 //cleanup
 $git pull origin master
-$git commit -m ""
+$git commit -m "text"
 $git push origin master
 
