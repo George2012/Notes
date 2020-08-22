@@ -145,3 +145,53 @@ $git config --global difftool.prompt false
 
 $git config --global --list
 $git config --global -e  //view config in default editor
+
+//compare between working directory and staging area
+git diff
+git difftool
+
+//compare between working directory and last commit
+git diff HEAD
+git difftool HEAD
+
+//compare between staging area and repository
+git diff --staged HEAD
+
+//compare 1 file
+git diff -- <file_path>
+git difftool -- <file_path>
+
+//compare 2 commits
+git log --oneline
+git diff <ref1> <ref2> 
+git diff <ref1> HEAD //compare to last commit 
+git difftool <ref1> HEAD //compare to last commit 
+git diff HEAD HEAD^ //compare HEAD to HEAD-1 
+
+//compare local and remote
+git diff master origin/master
+
+//branches
+git branch -a
+git branch mynewbranch   //create branch
+git checkout mynewbranch //switch to new branch
+git branch -mynewbranch newbranch //rename(move) branch
+git branch -d newbranch //delete branch
+git checkout -b newbranch //create and switch to new branch
+
+//merge to master
+git checkout master
+//compare branches
+git diff     master newbranch
+git difftool master newbranch
+
+git merge newbranch		//merge from newbranch into master
+git branch -d newbranch //delete all branch 
+
+git merge newbranch	-no-ff	//merge from newbranch into master
+git merge new branch -m "Merge changes"
+
+//conflicts
+git mergetool //configure p4merge
+git commit -m "resolve merge conflicts"
+//add *.orig to .gitignore
