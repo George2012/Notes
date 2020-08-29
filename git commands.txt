@@ -195,3 +195,69 @@ git merge new branch -m "Merge changes"
 git mergetool //configure p4merge
 git commit -m "resolve merge conflicts"
 //add *.orig to .gitignore
+
+//rebase
+git branch -d myfeature
+git rebase master
+
+//rebase with conflict
+git rebase --abort
+
+git rebase master
+git mergetool
+git rebase --continue
+git checkout master
+git merge myfeature
+
+//pull with rebase
+git fetch origin master
+git pull --rebase orogon master
+
+//STASH
+git stash
+git stash apply //unstash
+git stash list
+git stash drop //drop the last stash
+git stash -u //stash also untracked files
+git stash pop //apply + drop
+
+git stash save "simple changes 1" //multiple stashes
+git stash save "simple changes 2"
+git stash show stash@{1}
+git stash list
+git stash apply stash@{1}
+git stash drop stash@{1}
+git stash clear //remove all stashes
+
+//stash into branch 
+git stash -u 
+git stash branch <name_of_the_branch>
+git add .
+
+//taging
+git tag myTag
+git tag --list
+git show myTag
+git tag --delete myTag
+//annotated tags
+git tag -a v-1.0
+//compare tags
+git tag -a v-1.1
+git tag -a v-1.1 -m "Relese 1.2"
+git diff v-1.0 v-1.1
+git difftool v-1.0 v-1.1
+//tag specific commit
+git tag -a v-0.9-beta <commit number>
+//push tags
+git push origin v-1.0 //push specific tag
+git push origin master --tags //push all tags
+git push origin :v-0.9-beta// clear remote tag
+
+//reset
+git reset HEAD^1 //revert last commit
+git reflog
+
+/cherry-pick
+git cherry-pick <commit number>
+
+git version
