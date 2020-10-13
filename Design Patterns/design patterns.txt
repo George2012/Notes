@@ -5,6 +5,8 @@ Creational:
 		Factory  Method
 		Functional Factory
 	Prototype
+		Prototype Factory
+		Prototype via Serialization
 	Singelton
 Structural:
 	Adapter
