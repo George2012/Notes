@@ -1,0 +1,27 @@
+Creational:
+	Builder
+	Factories
+		Abstract Factory
+		Factory  Method
+		Functional Factory
+	Prototype
+	Singelton
+Structural:
+	Adapter
+	Bridge
+	Composite
+	Facade
+	Flyweight
+	Proxy
+Behavorial:
+	Chain of Responsibility
+	Command
+	Interpreter
+	Iterator
+	Mediator
+	Momento
+	Observer
+	State
+	Strategy
+	Template Method
+	Visitor

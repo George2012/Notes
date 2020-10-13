@@ -1,0 +1,13 @@
+SOLID design principles:
+1)Single Responsibility principle
+2)Open-Close principle
+	open for extension, closed for modification
+3)Liskov Substitution principle
+	Objects in a program should be replaceable with instances of their subtypes
+	w/o altering the correctness of the program
+4)Interface segregation principle
+5)Dependency inversion principle
+	 A. High-level modules should not depend on low-level modules.
+	    Both should depend on abstractions.
+	 B. Abstractions should not depend on details. 
+	    Details should depend on abstractions.
