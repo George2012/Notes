@@ -194,6 +194,25 @@ int main_3423()
 
   //cout << *john << "\n" << *jane << "\n"; // note the stars here
 
+  auto clone = (const Contact& c )
+  {
+	  ostringstream oss;
+	  archive::text_oarchive oa(oss);
+	  oa << c;
+	  string s = oss.str();
+	  cout << s << endl;
+	  
+	  istringstream iss(s);
+	  archive::text_iarchive ia(iss);
+	  
+	  Constact result;
+	  ia >> result;
+	  return result;
+  }
+  
+  auto john = EmployeeFactory::NewAuxOfficeEmployee("John Doe", 123);
+  auto jane = clone(*john);
+
   delete addr;
 
   getchar();
