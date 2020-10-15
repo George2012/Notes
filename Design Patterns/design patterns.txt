@@ -8,6 +8,9 @@ Creational:
 		Prototype Factory
 		Prototype via Serialization
 	Singelton
+		Singlton with Dependency Injection
+		Monostate
+		Multiton
 Structural:
 	Adapter
 	Bridge
