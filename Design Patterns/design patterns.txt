@@ -13,6 +13,7 @@ Creational:
 		Multiton
 Structural:
 	Adapter
+		Caching Adapter
 	Bridge
 	Composite
 	Facade
