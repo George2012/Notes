@@ -15,7 +15,11 @@ Structural:
 	Adapter
 		Caching Adapter
 	Bridge
+		pimpl idiom
+		shrink-wrap pimpl
 	Composite
+		CRTP - Curiously recurring template pattern
+		Arrayed-Backed Properties
 	Facade
 	Flyweight
 	Proxy
