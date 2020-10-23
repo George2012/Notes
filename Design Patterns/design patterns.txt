@@ -20,6 +20,12 @@ Structural:
 	Composite
 		CRTP - Curiously recurring template pattern
 		Arrayed-Backed Properties
+	Decorator
+		Dynamic Decorator
+		Static Decorator
+			Mixin inheritance
+			perferct forwarding
+		Functional Decorator
 	Facade
 	Flyweight
 	Proxy
