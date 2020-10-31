@@ -38,6 +38,8 @@ Structural:
 		Communication Proxy
 Behavorial:
 	Chain of Responsibility
+		Pointer Chain
+		Broker Chain
 	Command
 	Interpreter
 	Iterator
