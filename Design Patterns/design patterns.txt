@@ -28,7 +28,14 @@ Structural:
 		Functional Decorator
 	Facade
 	Flyweight
+		Handmade Flyweight
+		Boost Flyweight
+		Text formatting
 	Proxy
+		smart pointers
+		Property proxy
+		Virtual Proxy
+		Communication Proxy
 Behavorial:
 	Chain of Responsibility
 	Command
