@@ -39,9 +39,14 @@ Structural:
 Behavorial:
 	Chain of Responsibility
 		Pointer Chain
-		Broker Chain
+		Broker Chain (Event Broker)
 	Command
+		Command Query Seperation
+		Undo Operation
+		Composite Command
 	Interpreter
+		Handmade interpreter: Lexer, Parser
+		Parser with Boost spirit
 	Iterator
 	Mediator
 	Momento
