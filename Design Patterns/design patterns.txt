@@ -53,6 +53,7 @@ Behavorial:
 		Tree Iterator with coroutines
 		Boost Iterator Facade
 	Mediator
+		Event Broker
 	Momento
 	Observer
 	State
