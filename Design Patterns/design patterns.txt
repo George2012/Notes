@@ -58,6 +58,10 @@ Behavorial:
 		Undo Redo
 		Automatic Memento
 	Observer
+		Observer, Observerable
+		Erase-Remove Idiom
+		Observarable with boost signals //boost::signal2
+		ThreadSafety and Reentrancy
 	State
 	Strategy
 	Template Method
