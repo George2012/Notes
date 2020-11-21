@@ -63,6 +63,9 @@ Behavorial:
 		Observarable with boost signals //boost::signal2
 		ThreadSafety and Reentrancy
 	State
+		Classical State //depricated
+		Handmade State
+		State Machine with boost MSM
 	Strategy
 	Template Method
 	Visitor
