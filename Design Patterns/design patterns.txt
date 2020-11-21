@@ -54,7 +54,9 @@ Behavorial:
 		Boost Iterator Facade
 	Mediator
 		Event Broker
-	Momento
+	Memento
+		Undo Redo
+		Automatic Memento
 	Observer
 	State
 	Strategy
