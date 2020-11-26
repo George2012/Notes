@@ -67,5 +67,7 @@ Behavorial:
 		Handmade State
 		State Machine with boost MSM
 	Strategy
+		Dynamic Strategy
+		Static Strategy
 	Template Method
 	Visitor
