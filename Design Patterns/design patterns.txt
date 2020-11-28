@@ -71,3 +71,9 @@ Behavorial:
 		Static Strategy
 	Template Method
 	Visitor
+		Intrusive Visitor
+		Reflevtive Visitor
+		Classic Visitor (Double Dispath)
+		Acyclic Visitor
+		Multimethods
+		Variant and std::visit
