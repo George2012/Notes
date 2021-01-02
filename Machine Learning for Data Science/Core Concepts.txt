@@ -1,0 +1,55 @@
+Data
+	Structured 
+		Databases
+		Spreadsheets
+		Form Documents
+	Unstructured 
+		E-mails
+		Word Documents
+		PDF document
+		Video Files
+
+C.R.U.D Create Retrieve Update and Delete
+
+Core Concepts:
+
+1)Computer Csience
+
+2)Artificial Intelligence
+
+3)Big Data
+	VVV Velocity Volume Variety
+	Apache Spark
+	Apache Hadoop
+
+4)Machine Learning
+	Example Inputs/Outputs (Data)
+	Generate a Model (Training the Model)
+	New Inputs (Get a predicition)
+	Evaluate the Model (How's ot working)
+	Supervised Learning   - (labeled) 	Value you want to predict is in the Data
+	Unsupervised Learning - (unlabeled) Value you want to predict isn't in the Data
+	reinforcement learning
+	ML Takes Data looks for patterns and creates a model
+	Consept of 
+		Sensetivity - TPR (True positive rate)
+		Specificity - TNR (True negative rate)
+	Consider your evaluation of "least costly mistake"
+	
+5)Data science -
+	is the process of obtaining, transforming analysing and 
+	communicating data to answer a question.
+	
+	Skills:
+		Technical skills
+		Math & Statistics Skills
+		Domain Knowledge.
+	Data science include:
+		Descriptive Analysis
+		Exploratory Analysis
+		Predictive  Analysis (Supervised Learning)
+		Mechanistic Analysis
+		Inferential Analysis
+		Causal 		Analysis
+		
+	Machine Learning is one tool in Data Science
