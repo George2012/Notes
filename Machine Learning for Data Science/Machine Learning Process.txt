@@ -1,0 +1,83 @@
+1)The problem 
+	what question are we asking
+	what resources we have
+		people
+		data sources
+			structed
+			unstructed
+	what rules are relevant
+	what is "done" look
+	how will we measure the performance
+	what kind of errors will we tolarate
+		false negatives
+		false positives
+		Sensitivity/ Specificity
+2)The data
+	Quality
+	Cost
+	Speed
+	
+  In-house dats
+  Third Party Data
+	Data Broker
+		Google, Facebook Twitter.
+	DaaS (Data as a Service)
+  Public Data
+	Google N-Grams
+	Redit Comments
+	Wikipedia
+  Creating Data
+	Scraping Data
+  Preparing Data:
+	Missing Data
+	Inconsistant Data
+	Duplicate Data
+  Tidy(accuarate) Data
+	1) Each varaible(feature) is in its own column
+	2) Each observation(cases) is in its own row
+	3) Each value is in its own cell
+  Data is often as WIDE (variables) as it is LONG (observations)
+3)Machine Learning Algorithm
+	Performance
+	right data
+	right question
+	
+	4 algorithms:
+		1)Decision Trees
+			a)Classification Trees(finite values)
+			b)Regression Trees (continuous values)
+		2)Naive Bayesian Classifier
+			example: SPAM classifier
+		3)Neural Networks
+			network of "neurons" (graph)
+				- neurons directly connected to the input/output
+				- neurons connected to each other (hidden)
+				- all connections have a "weight"
+				Training a network means getting the value of these weight
+				A set of weights as a model.
+				Good for unstructed data
+				and where rule based learning can't work.
+				examples: hand writing recognition
+						  speech recognition.
+						  face recognition.
+		4)kNN (K's nearest neighbor)
+			Great for classification
+			use "neigbourhoods" of data based on variables, predictors or features
+			k - is number of how many neigbours to consider
+4)Evaluating the performance of the Model and adjusting
+	Evaluate performance
+		- Use creteria established in step #1
+		- Test with hold back data / cross validation
+	Adjust Performance
+		- pull different data
+	Adjust the algorithm
+		- Generalization/Regularization
+			playing it too simple
+		- Over fit
+			where the model in test data that not exist in  real data
+			too complex
+		- more selective about variables
+		- can shrink each varaible holds
+	Adjusting or tune the question
+5)Using and presenting the model
+ grab other data and use it as a test
