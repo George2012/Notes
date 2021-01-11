@@ -1,0 +1,29 @@
+Data Rich
+Processing Power
+AI/ML Algorithms
+
+What kind of problems Machine Learning solves?
+
+Training Data:
+	Supervised 	 Learning
+	Unsupervised Learning
+3 types of problems:
+	Classification 
+		Supervised
+		Grouping items
+			example: credit card frauding
+					 face recognition
+	Regression
+		Supervised
+		Fitting a curve/finding
+			example: relation berween IQ and income
+					 autonomus car
+	Clustering
+		Unsupervised
+		Finding how the data is aligned in groups
+			example: group customer into segments
+					 recomendation engine
+
+A key element is choosing the right algorithm and question being answered.
+
+HFT - High frequency trading

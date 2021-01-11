@@ -1,0 +1,35 @@
+1) R
+	language supports machine learning
+	and optimized for mathematical operations
+   CRAN - Comprehensive R Archive Network
+   Dev Envs:
+	Rstudio
+	Jupyther 
+2) Python
+	machine learning libraries
+		Scikit-learn
+		SciPy
+		PyBrain
+		Rpy2 - allow integrate python into R
+	Dev Envs:
+		Juputer
+		IDLE
+	Conda - switch between python versions
+	Anaconda
+	Canopy -entropy
+3) SQL
+	Free:
+		MySQL
+		Postgresql
+	Payed
+		Microsoft SQL
+		Oracle
+	Graphical:
+		PhpMyAdmin(free)
+		Toad SQL server (paid)
+4) Excel
+	Microsoft Azure Machine Learning (throught VBA)
+	Open Office
+5) Rapid Miner (paid)
+	Rapid IDE
+	
