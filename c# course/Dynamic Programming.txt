@@ -1,0 +1,72 @@
+dynamcic
+	//late-binding
+	dynamic d = "hello";
+	int n = d.Area;
+	d.GetType()
+	d.Length
+	try{
+		int n = d.Area;
+	}catch(RuntimeBinderException e) {...}
+	
+	d = 321;
+	
+DynamicObject base class
+	public class Widget: DynamicObject 
+	{
+		public void WhatIsThis()
+		{
+			//this.World;
+			This.World;
+		}
+	
+		public dynamci This => this;
+	
+		public override bool TryGetMember(GetMemberBinder binder, out object result)
+		{
+			result = binder.Name;
+			return true;
+		}
+		
+		override TryGetIndex ...
+	}
+	
+	Main(...)
+	{
+		//dynamic w = new Widget();
+		var w = new Widget() as dynamic;
+		w.Hello;		
+		w[7];
+		w.WhatIsThis();
+	}
+
+using dynamic for XML parsing
+ExpandoObject
+	dynamic person = new ExpandoObject();
+	person.FirstName = "John";
+	person.Age = 22;
+	person.Address = new ExpandoObject(0;
+	person.Address.city = "London";
+	
+	person.SayHello = new Action(() =>{Console.WriteLine("Hello!");});
+	person.SayHello();
+	
+	person.MyEvent = null;
+	person.MyEvent += new EventHandler<dynamic>((sender,args) =>
+	{
+		Console.WriteLine("Hello {args}");
+	});
+	
+	EvantHandler<denamic> e = person.MyEvent;
+	e?.Invoke(person, person.FirstName);
+	
+	var dict = (IDictionart<string, object>) person
+	dict.ContaunsKey("FirstName"); //true
+	dict.ContaunsKey("LastName"); //false
+	dict["LastName"] = "Smith";
+	dict.ContaunsKey("LastName"); //true;
+	
+Dynamic Dispatch (Visistor Pattern with Dynamic Programming)
+
+DLR - Dynamic Language Runtime
+
+	Dynamcic dispatch - determines which overload to call ar runtime

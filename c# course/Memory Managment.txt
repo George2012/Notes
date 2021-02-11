@@ -1,0 +1,43 @@
+In Parameters
+	double Measure(in Point p)
+		1)passed by reference
+		2)in makes the structure read-only
+Ref readonly variables
+	private static Point origin = new Point();
+	public static ref readonly Point Origin => ref orogin;
+	
+	ref readonly var originRef = ref Point.Origin;
+	
+
+	Types of memory:
+		Managed memory(new operator)
+			small objects < 85K (generations)
+			Large object > 85K (Large Object Heap, LOH)
+			Both released by GC
+		Unmanaged Memory
+			Allocated on unmanaged heap
+				Marshal.AllocHGlobal
+				Marshal.AllocCoTaskMem
+			Released with 
+				Marshal.FreeHGlobal
+				Marshal.FreeCoTaskMem
+		Stack memory (stackalloc)
+			very fast allocation/deallocation
+			very small <1MB , overallocate => process dies (stack overflow)
+			Method-scoped - stack unwind
+			
+Ref struct
+	a value type that must be stack-allocated.
+	can never be member of another class.
+	support to Span<T>
+	compiler-enforce rules
+		can't box a ref struct
+		can't declare a ref struct as a member of class
+		can't declare in async methods
+		can't declare in iterator
+		can't declare in lambda
+	rules prevent a ref struct to be promoted to the managed heap
+	
+Span<T>
+ReadOnlySpan<T>
+

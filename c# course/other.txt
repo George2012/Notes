@@ -1,0 +1,13 @@
+IDisposable
+	public MyClass: IDisposable
+	{
+		public void Dispose(){...}
+	}
+	using (var mc = new MyClass()){}
+	using (new MyClass()){}
+Continuation Passing Style
+	
+Mnemonics
+	Emmet (HTML gen)
+	https://emmet.io/
+	https://github.com/nesteruk/Mnemonics

@@ -1,0 +1,109 @@
+Integer Types (BigInteger)
+				signed      unsigned
+	8 bit  		sbyte		byte
+	16 bit		short		ushort
+	32 bit		int			uint
+	64 bit		long		ulong
+	
+	Minimal and Maximal
+		int.MinValue
+	parse from string
+		int  value   = int.Parse("123"); // throws exception
+		bool success = int.TryParse("123", out int value);
+	default returns 0 for all types
+	overflow
+		Not handled by default, you get garbage
+	Divisiaon by Zero
+		exception
+	Checked and Unchecked Mode
+		affecte overflow, not division by zero
+		unchecked{
+			var n = int.MinValue - 1;
+		}
+		checked
+		{
+			try{
+				int x2- int.MinValue -1;			
+			}
+			catch(OverflowException e)
+			{ ... }
+		}
+	Project Settings -> Build -> Advanced -> check overflow
+	
+	BigInteger
+		integer of arbitary size
+		lives in System.Runtime.Numerics
+		throw DividesByZeroExceptions
+		Is a struct
+		Cannot overflow
+		is immuntable
+			x++ does not modify object, instead creates new
+		
+Floating-Point Types (Decimal)
+	float  (32 bits)
+	double (64 bits)
+	
+	do not cause exceptions
+	division by zero is allowed
+		defined infinity
+			1.0/0.0 = double.PositiveInfinity
+		   -1.0/0/0 = double.NegativeInfinity
+	Not a Number (NaN)
+		0.0/0.0
+		infinity/infinity/infinity
+		NaN has no sign
+		any operation on Nan is a NaN
+		compare with NaN always false
+		check for NaN double.IsNaN(x)
+	Representation	
+		Not every number can be represented
+		compariasons need a tolerance value
+			if(Math.Abs(x-y)<1e-8) {...}			
+	System.Decimal
+		128-bit decimal type (struct)
+		suitable for financila calculations
+		no subject of representation error
+		performance penalty
+
+SIMD Intrinsic
+	Single instruction Multiple Data
+		in the context of single CPU
+	Need to be supported by the CPU
+		AMD: 3dNow
+		Intel: MMX, SSE
+		both: AVX
+	Striming SIMD extensions(SSE)
+		128-bit registers(xmm0..xmm7)
+	Advanced Vetor Extensions (AVX)
+		new instructions
+		xmm ymm(128-255 bits)
+		AVX-512 zmm(256-511 bits)
+		integer & floating-point operations
+		scalar vs packed data
+			addss - add low single-precision value
+			addps - add all 4 single-precision values
+			
+	hardware intrinsic (System.Runtime.Intrinsics)
+		check level of SIMD supported
+			SSE classes
+			AVX classes
+				if(Avx.IsSupported){...}
+					Avx2.Add()
+			VectorXxx<t>
+	use specific data types.
+	use general Vector<T>
+		64/128/258
+			VectorXxx.Create()
+		var x = Vector128.Create(1.0f);
+		var y = Vector128.Create(1.0f);
+		var f = Sse.Add(x,y);
+	No operators supported
+		no x+y
+	SIMD primaraialy used for FP calculations
+	intrinsic devisons is only allowed for FP types
+	System.Numerics.Vectors
+		BigInteger, Complex
+		SIMD-accelerated: Matrix, Plane, Quaterion
+		Vectors2, Vector3, Vector4
+		Vector<T>
+		IsHardwareAccelerated
