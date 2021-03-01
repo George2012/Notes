@@ -1,0 +1,107 @@
+EPS - Earning Per Share
+
+1) Price Appreciation
+2) Devidends
+3) Share BytBacks (Repurchases)
+
+ttm - trailing twelve month
+
+
+4 thing to valuate the stock
+1) Current EPS (ttm) (Earning Per Share)
+	Take EPS from Yahoo finance
+	confirm in gurufocus.com
+2) Earnings Growth Rate
+	1)Historical Equity Growth Rate:
+		gurufocus
+			30 Y (30 Years financial)
+			Book Value Growth % for 10 years (Equity Growth)
+	2)Analyst Prediciton:
+		Yahoo Finance
+			Next 5 Years growth Estimate
+	conservative - lower of two
+	aggressive 	 - higher of two
+3) P/E Price to Earning Ration (at the time you sell the stock)
+	1) simple double Earnings Growth Rate
+	2) gurufocus -> hystorical chart -> P/E Ration
+	3) https://www.macrotrends.net/2577/sp-500-pe-ratio-price-to-earnings-chart
+		take high value for 10 years
+4) Desired Rate of return
+	12%
+	
+book value(equity) = total assets - total liabilities
+shares outstanding = number of shares of the company
+book value per shae = book value / shares outstanding
+
+Earning Yields = EPS / Price
+
+filters:
+eps > 0 
+devidend > 2.5
+pay out ration < 50
+profit margin > 10
+ROC (5 years) > 10 (return of equity?)
+
+Well Managed High Quality Companies
+
+test
+	1)
+	https://www.msn.com/en-us/money
+	anallysis->key statistics-> management effectiveness->
+		Return on Capital %
+	
+	ROIC = (Net Income - Devidends) / Total Capital
+	
+	(gurufocus)
+	
+	ROC > 10
+	
+Selling stocks:
+4 reason:
+	1) High price:
+	   25% above face value
+	   
+	2) Stop being a great company
+		Monitor ROC for holding shares
+	
+	3) Better investment opportunities (tax)
+	
+	4) You need the money
+		sell the stock with highest price relative to face value
+
+Buy 6 - 12 undervalued stocks and wait to market to place them above value
+
+Step-By-Step-List:
+1)Make a List of 100 companies you know
+2)find companies trading publicity
+3)Look at ROC
+4)Place the value
+5)Place date and valuation you made
+6)Look at the current market prices, mark them next to evaluation
+7)Compare price vs face value.
+	The goal is to buy is 50% off
+8)Of those which are udervalued pick 6-12
+ spread among industries and begin to purchase 
+ Not all at once one by one over the next few month
+9)Search other companies to find more buying opportunities
+exposure to other industries
+look at: yahoo industires center
+be deversified across different industries
+10) continue to do it every month
+
+Tools:
+	1)GuruFocus.com
+	2)Morningstar.com
+	3)Yahoo Finance
+	
+Tools in course
+MyCalculators
+MoSInvesting.com Face Value Calculator (Previously TudorCoaching.com)
+Yahoo’s Industry Center
+MSN Money
+Yahoo Finance
+GuruFocus
+Seeking Alpha
+MarketWatch
+Motley Fool
+Yahoo Stock Screener
