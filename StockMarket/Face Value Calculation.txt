@@ -38,7 +38,7 @@ Earning Yields = EPS / Price
 filters:
 eps > 0 
 devidend > 2.5
-pay out ration < 50
+pay out ratio < 50
 profit margin > 10
 ROC (5 years) > 10 (return of equity?)
 
