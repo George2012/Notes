@@ -1,0 +1,19 @@
+Anaconda Installation:
+Download from: https://www.anaconda.com/download/
+
+contains:
+	JupyterLab
+	Jupyter Notebook
+	QtConsole
+	Spyder
+	Glue
+	Orange
+	RStudio
+	Visual Studio Code
+	
+important modules
+	matplotlib
+	numpy
+	pandas
+	scikit-learn
+	scipy

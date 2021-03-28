@@ -1,0 +1,20 @@
+SciKit Learn - tool for data mining, data analysis and Machine Learning
+SciPy - scientific computing with Python
+	Linear Algebra
+		Vector operations
+		Matrix operations
+	Decompositions
+Matplotlib - plotting library
+	plot basic 2D line graphs
+	histograms
+	color maps
+	plot 3d graphs
+Pandas - Python Data Analysis Library
+	DataFrame
+	Series - one dimensional data frame
+	pd.DataFrame({'date':['123', '345'], 'rainfall':[0,0]})
+	df.info()
+
+NumPy - An Array Implementation an Matrixes
+	np.array
+	np.matrix

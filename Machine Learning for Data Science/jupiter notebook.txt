@@ -1,0 +1,45 @@
+Examples Input (Data)
+Generate a Model (Train a Model)
+New input (feed inputs that model have never seen before) Get Predicition
+Evaluate (Tune)
+
+Data:
+Each variable in its own column
+Each observation on its own row
+each value on its own place
+
+
+Feature | Definition  | Key
+        |			  |
+        |			  |
+        |			  |
+        |			  |
+
+
+Supervised
+Unsupervised
+Reinforcement
+
+
+5 steps:
+1) Asking Question
+2) Obtain Data
+3) apply ML algorithm
+4) Evaluate Model
+	use criteria from step 1
+	test with holdback data / cross validation
+5) Use Model
+	Adjsut data (from different sources)
+	Adjust algorithm
+	Tune algorithm to not overfit (or underfit) the data
+	
+
+
+
+Algorithm examples:
+1) Decision Trees
+	Classificaion Trees
+	Regression Trees
+2) Naive Bayesian Classifier 
+3) Neural Networks
+4) kNN		
