@@ -1,0 +1,5 @@
+1) ask question
+2) obtain data
+3) applying model
+4) evaluate performance
+5) using model

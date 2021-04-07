@@ -1,1 +1,32 @@
 https://www.kaggle.com/
+
+training data
+
+scikit-learn
+	sklearn
+		Define: What type of model will it be? A decision tree? Some other type of model? Some other parameters of the model type are specified too.
+		Fit: Capture patterns from provided data. This is the heart of modeling.
+		Predict: Just what it sounds like
+		Evaluate: Determine how accurate the model's predictions are.
+
+
+evaluate 
+	Mean Absolute Error (also called MAE).
+	error=abs(actual−predicted)
+		On average, our predictions are off by about X.
+
+Underfitting and overfitting
+	improve you model
+
+Overfitting: capturing spurious patterns that won't recur in the future, leading to less accurate predictions, or
+Underfitting: failing to capture relevant patterns, again leading to less accurate predictions.
+
+We use validation data, which isn't used in model training, to measure a candidate model's accuracy. This lets us try many candidate models and keep the best one.
+
+python kernel
+1) Get Data
+2) Understand Data
+3) Understand which Data regards to prediction
+4) Prepare right data for algorithm
+5) applying algorithm
+6) evaluating algorithm
