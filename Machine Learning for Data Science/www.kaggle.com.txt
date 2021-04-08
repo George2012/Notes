@@ -30,3 +30,18 @@ python kernel
 4) Prepare right data for algorithm
 5) applying algorithm
 6) evaluating algorithm
+
+Desicion Tree
+Decicion Forest
+
+The 7 Steps of Machine Learning
+https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e
+
+1)Gathering Data
+	prevente data leakage
+2)Data preparation
+3)Choosing a model
+4)Training Model
+5)Evaluation
+6)Parameter Tuning
+7)Prediction
